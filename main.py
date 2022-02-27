@@ -159,7 +159,7 @@ moves = [
     AttackMoves("Dragon Claw", 29),
     AttackMoves("Wing Attack", 12),
     AttackMoves("Hydro Pump", 47),
-    AttackMoves("Hydro Cannon", 560),
+    AttackMoves("Hydro Cannon", 50),
     AttackMoves("Flash Cannon", 37),
     AttackMoves("Bite", 12),
     AttackMoves("Hyper Beam", 39),
