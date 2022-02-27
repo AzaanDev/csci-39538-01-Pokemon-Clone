@@ -4,6 +4,7 @@ Librarys Required:
 import keyboard  
 from termcolor import cprint  
 import time  
+import colorama - require for cprint to work on windows   
 import random  
   
 Controls:  
