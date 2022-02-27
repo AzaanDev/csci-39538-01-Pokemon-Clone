@@ -1,8 +1,10 @@
 import keyboard
 from termcolor import cprint
 import time
+import colorama
 import random
 
+colorama.init()
 
 class Player:
     xPos = 8
