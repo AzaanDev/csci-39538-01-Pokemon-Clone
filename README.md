@@ -1,4 +1,4 @@
-# csci-39538-01-Pokemon-Clone
+# csci-39538-01 Simple PokemonClone
   
 Librarys Required:  
 import keyboard  
