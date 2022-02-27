@@ -334,7 +334,7 @@ class Game:
                         currentPokemonFight = pokemon
                         break
 
-        if self.player.battlePokemon.hp < 0:
+        if self.player.battlePokemon.hp <= 0:
             for pokemon in self.player.pokemon:
                 if pokemon.hp > 0:
                     self.player.battlePokemon = pokemon
