@@ -228,9 +228,9 @@ class Game:
               [Pokemon("Deoxys", "Psychic", [moves[8], moves[16], moves[17], moves[12]], 85, "Female"),
                Pokemon("Rayquaza", "Dragon", [moves[18], moves[3], moves[10], moves[14]], 120, "Female"),
                Pokemon("Mewtwo", "Psychic", [moves[5], moves[3], moves[9], moves[14]], 85, "Female")])
-    zapdos = Pokemon("Zapdos", "Eletric", [moves[12], moves[13], moves[14], moves[15]], 100, "Male")
-    Articuno = Pokemon("Articuno", "Ice", [moves[12], moves[13], moves[14], moves[15]], 150, "Female")
-    Moltres = Pokemon("Moltres", "Fire", [moves[12], moves[13], moves[14], moves[15]], 120, "Female")
+    zapdos = Pokemon("Zapdos", "Eletric", [moves[12], moves[3], moves[4], moves[15]], 100, "Male")
+    Articuno = Pokemon("Articuno", "Ice", [moves[12], moves[6], moves[7], moves[15]], 150, "Female")
+    Moltres = Pokemon("Moltres", "Fire", [moves[12], moves[8], moves[4], moves[1]], 120, "Female")
     map = Map()
     cpu.yPos = 7
     cpu.xPos = 7
@@ -260,7 +260,7 @@ class Game:
 
     def starting(self):
         pokemon = [Pokemon("Charizard", "Fire", [moves[0], moves[1], moves[2], moves[3]], 78, "Male"),
-                   Pokemon("Blastoise", "Water", [moves[4], moves[5], moves[6], moves[7]], 100000, "Male"),
+                   Pokemon("Blastoise", "Water", [moves[4], moves[5], moves[6], moves[7]], 100, "Male"),
                    Pokemon("Tornadus", "Flying", [moves[8], moves[9], moves[10], moves[11]], 79, "Female")]
         print("Selected a Pokemon")
         print("1. " + pokemon[0].name + " " + pokemon[0].types + " " + str(pokemon[0].health) + " " + pokemon[0].gender)
