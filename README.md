@@ -9,7 +9,7 @@ import random
   
 Controls:  
 A, W, S, D - to move around the board  
-E - to pick up items and Enter battles. Only Works went directy under entity.   
+E - to pick up items and Enter battles. Only works when directy under entity.   
   
 Colors:  
 Green = Grass   
